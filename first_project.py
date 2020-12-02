@@ -1,6 +1,6 @@
 
 
-def avg(*num_list:float) -> float:
+def avg(*num_list: float) -> float:
     total = 0
     for num in num_list:
         if isinstance(num, (int, float)):

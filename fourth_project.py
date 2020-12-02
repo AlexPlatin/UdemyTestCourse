@@ -10,6 +10,5 @@ class FibonacciSequence:
         else:
             return self.recursive_method(n - 1) + self.recursive_method(n - 2)
 
-
     def math_method(self, n):
         return ((1 + sqrt(5)) ** n - (1 - sqrt(5)) ** n) / (2 ** n * sqrt(5))
